@@ -3,6 +3,7 @@
 <%@ page import="com.lero.model.Admin" %>
 <%@ page import="com.lero.model.DormManager" %>
 <%@ page import="com.lero.model.Student" %>
+
 <%
 	if(request.getAttribute("user")==null){
 		String userName=null;
@@ -151,8 +152,8 @@
         <button class="btn btn-large btn-primary" type="submit">登录</button>
         &nbsp;&nbsp;&nbsp;&nbsp;
         <button class="btn btn-large btn-primary" type="button" >重置</button>
-
-		<p align="center" style="padding-top: 15px;">版权所有  2014  Lero  <a href="http://www.lero.com" target="_blank">http://www.lero.com</a></p>
+		
+		<p align="center" style="padding-top: 15px;">&copy;版权所有  2017(javaweb项目)</p>
       </form>
 </div>
 </body>
